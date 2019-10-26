@@ -8,7 +8,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 35vh;
+  border: #fff 5px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,4 +20,30 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: 000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav li a:hover {
+  background-color: #ccc;
 }
