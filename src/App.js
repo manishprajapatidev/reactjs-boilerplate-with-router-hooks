@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Layout from './components/containers/Layout';
 
 /** Load all Components such as Login, Register, Static Pages etc */
-import Home from './components/pages/Home';
-import Contact from './components/pages/Contact';
-import Blog from './components/pages/Blog';
+import Home from './views/Home';
+import Contact from './views/Contact';
+import Blog from './views/Blog';
 
 import './App.css';
 
